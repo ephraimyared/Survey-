@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+    <h1 id="title" class="header">Survey Form</h1>
+      <p id="description" class="description">We appreciate your participation in completing our survey.</p>
+    <form id="survey-form">
+         <label id="name-label" for="name-label"> First-Name <input type="text" id="name" required placeholder="Enter First-Name"></label>
+          <label  id="name-label" for="name-label">Last-Name <input id="Name" type="text" required placeholder="Enter Last-Name"></label>
+             <label id="email-label" for="email-label">Email <input id="email" type="email" required placeholder="Fill out your Email"></label>
+             <label id="number-label" for="number-label"> Age <input id="number" for type="number"min="13" max="120" required placeholder="Fill out your age" ></label>
+               <label>
+                     <select id="dropdown">
+                       <option>which of the following describes you more</option>
+                        <option>Student</option>
+                      <option>Full-stack Developer</option>
+                        <option>prefere not to say </option>
+                          <option>Other</option>     
+                     </select>
+                   </label>
+                   <label id="Other-label" for="Other-label"><h4>If your Option is Other:</h4><input type="text" required>
+                </label>
+
+                   <h3>How Do You Rate Our Product and Services?</h3>
+                <input type="radio" value="Good"id="Good" name="yes" select >Good 
+                <input type="radio" value="poor"id="poor" name="yes">Poor
+                 <input type="radio" id="Excellent" value="Excellent"name="yes">Excellent
+                 <input type="radio" id="Average" value="Average" name="yes">Average
+                 <input type="radio" value="verypoor" id="verypoor" name="yes">Very Poor
+              <h3>Any suggestions on what to improve?</h3>
+              <label><input type="checkbox" value="value">Add more devlopers to our staff</label>
+            <label><input type="checkbox" value="value">Expand our teritory in different directions </label>
+            <label><input type="checkbox"value="value">Improve our web pages</label>
+            <label><input type="checkbox" value="value">Give our staff advanced classes</label>
+          
+           <textarea id="myTextarea" name="textarea" rows="4" cols="50">
+ Put improvement suggestions here:
+</textarea>
+<br/>
+                <input type="submit" id="submit" value="Submit" type="submit"> 
+       
+
+    </form>
+</body>
+</html>
