@@ -1,0 +1,23 @@
+h1{
+    font-size: xxx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+p{
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-size: larger;
+    display:block;
+    
+}
+label{
+    margin-bottom: 10px;
+    display: block;
+
+}
